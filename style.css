@@ -1,0 +1,20 @@
+p {
+	font-family: 'Cambay';
+	font-size: 22px;
+  	position: absolute;
+}
+
+.dot {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+  	transition: background-color 0.5s ease-out;
+	border-radius: 50%;
+  	position: absolute;
+}
+
+.dot:hover {
+    background-color: blue;
+    border-radius: 0%;
+    transition: background-color 0.5s ease-in;
+}
